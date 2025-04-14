@@ -45,25 +45,25 @@ function display(data){
                                                     "url('./images/clear-sky-2.jpg')" : 
                                                     "url('./images/clear-sky-night.jpg')";
 
-    }if(description.includes("cloud")){
+    }else if(description.includes("cloud")){
 
         background.style.backgroundImage = dayTime ? 
                                                     "url('./images/cloudy-sky.webp')" : 
                                                     "url('./images/cloudy-sky-night.jpg')";
 
-    }if(description.includes("rain")){
+    }else if(description.includes("rain")){
 
         background.style.backgroundImage = dayTime ? 
                                                     "url('./images/rainy-sky.webp')" : 
                                                     "url('./images/rainy-sky-night.jpg')";
 
-    }if (description.includes("snow")){
+    }else if (description.includes("snow")){
 
         background.style.backgroundImage = dayTime ? 
                                                     "url('./images/snowny-sky.jpg')" : 
                                                     "url('./images/snowny-sky-night.jpg')";
 
-    }if (description.includes("thunderstorm")){
+    }else if (description.includes("thunderstorm")){
 
          background.style.backgroundImage = dayTime ? 
                                                     "url('./images/thunderStorm-sky.webp')" : 
